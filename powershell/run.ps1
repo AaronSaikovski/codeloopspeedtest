@@ -1,0 +1,1 @@
+Measure-Command { ./main.ps1 }
