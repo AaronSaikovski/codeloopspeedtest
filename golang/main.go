@@ -5,11 +5,10 @@ import(
 )
 
 //loop over 1,000,000,000 items
-func main(){
-	const max_loop = 1000000000	
+func main(){	
 	i := 0
-	for next := true; next; next = i < max_loop {		
+	for next := true; next; next = i < 1000000000 {		
 		i++
 	}
-	fmt.Println("completed")
+	fmt.Println(i)
 }
