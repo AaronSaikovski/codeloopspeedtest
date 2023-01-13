@@ -12,7 +12,7 @@
 fn main(){
    let mut x:i64 = 0;
     for i in 0..1000000000 {
-        x += i;
+        //x += i;
     }    
     println!("x: {}", x);
 }
