@@ -2,16 +2,9 @@
 
 int main()
 {
-    // size_t n=0;
-    // while(n < 1000000000) {
-    //     n++;
-    // }
-    // std::cout << n << std::endl;
-
-    //optimised code - for loop instead of a while loop - ChatGPT!
-    uint32_t n=0;
-    for (; n < 1000000000; n++) {
-        //do nothing
+    int x = 0;
+    for (int n=0 ; n < 1000000000; n++) {
+        x = x + 1;
     }
-    std::cout << n << std::endl;
+    std::cout << x << std::endl;
 }
